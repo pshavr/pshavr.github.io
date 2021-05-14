@@ -2,12 +2,11 @@
 <html>
 
 	<!--
-	версия 0.1 - основные разделы + контакты + поддержка
-	версия 0.2 - добавлен второй уровень меню
-	
+	pshavr@gmail.com 2021	
 	-->
 	<head>
-		<title>pshavr personal site</title>
+		<title>pshavr</title>
+		<link rel="shortcut icon" type="image/png" href="images/mylogo.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -81,7 +80,7 @@
 							<article id="career">
 								<h2 class="major">Career</h2>
 								<p>Logos contains links to the organizations</p>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<span class="image main"><img src="images/career.jpg" alt="" /></span>
 								<ul class="alt">
 										
 										<li>
@@ -200,15 +199,14 @@
 						<!-- Skills -->
 							<article id="skills">
 								<h2 class="major">Skills</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p><a href="https://drive.google.com/file/d/1V9FSIG2rPVtSYx7Jd4Pz0yrwx__Q66CW/view?usp=sharing"  target="_blank">
-								Portfolio
-								</a></p>
+								<span class="image main"><img src="images/skills.jpg" alt="" /></span>
 								
-								В процессе наполнения -тут будут картинки лого технологий
+								<p><a href="#portfolio" class="button primary">Portfolio</a></p>
+								<br>
+								
 								<ul class="alt">
 									<li>I'm really good with Python</li>
-									<li>Can make almost any interactive map on mapboxGL</li>
+									<li>Can make almost any interactive map via mapboxGL</li>
 									<li>Will scrap ANY data from ANY site (Selenium)</li>
 									<li>Can launch and maintain Postgres base with geodata</li>
 									<li>Maintain linux machines</li>
@@ -219,13 +217,27 @@
 									<a href="#contact">contanct me</a></li>
 								</ul>
 								
+								<img src="images/skills_logos/python.png" width="100" height="100">
+								<img src="images/skills_logos/postgres.png" width="100" height="100">
+								<img src="images/skills_logos/postgis.png" width="100" height="100">
+								<img src="images/skills_logos/qgis.png" width="100" height="100">
+								<img src="images/skills_logos/js.png" width="100" height="100">
+								<br>
+								<br>
+								<img src="images/skills_logos/mapbox.png" width="125" height="80">
+								<img src="images/skills_logos/anylogic.png" width="125" height="80">
+								<img src="images/skills_logos/pgr.png" width="125" height="80">
+								<img src="images/skills_logos/osrm.png" width="125" height="80">
+								
 							</article>
 
 						<!-- Hobbies -->
 							<article id="hobbies">
 								<h2 class="major">Hobbies</h2>
 								<span class="image main"><img src="images/hobbies.jpg" alt="" /></span>
-								<p>в процессе наполнения будут фотки и треки</p>
+								<p>Hobby is what we are, what we do for free, what we are ready to spend time and energy on.
+									It so happened that I am interested in many spheres.
+									Bicycles, basketball, guitar and many more interesting areas in which I can call myself a specialist.</p>
 								<h4>Find out about:</h4>
 									<ul class="alt">
 										<li><a href="#velo">
@@ -281,18 +293,18 @@
 						<!-- 2nd levels of aticles in background section -->
 							<article id="baka">
 								<p>Graduate thesis: Simulating Modeling of Transport Streams for Urban Tasks</p>
-								<span class="image main"><img src="images/bachelor.png" alt="" /></span>
+								<span class="image main"><img src="images/diplomas/bachelor.png" alt="" /></span>
 								<a href="#background" class="button primary">&lt; back</a>
 							</article>
 							<article id="maga">
 								<p>Graduate thesis: Graphical Approach to Increasing Pedestrian Walkability in the City </p>
 								
-								<span class="image main"><img src="images/master.png" alt="" /></span>								
+								<span class="image main"><img src="images/diplomas/master.png" alt="" /></span>								
 								<a href="#background" class="button primary">&lt; back</a>
 							</article>
 							<article id="hack">
 							<p>Track: Development an Adaptive and Trainable Model to Determine the Accident Rate on the Selected Road Section</p>
-								<span class="image main"><img src="images/hackaton.png" alt="" /></span>
+								<span class="image main"><img src="images/diplomas/hackaton.png" alt="" /></span>
 								<a href="#background" class="button primary">&lt; back</a>
 							</article>
 							
@@ -313,17 +325,68 @@
 								<h2 class="major">тут сатья про игры</h2>							
 								<a href="#hobbies" class="button primary">&lt; back</a>
 							</article>
-												
+						
+						<!-- 2nd levels of aticles in skills section -->
+						<article id="portfolio">
+								<h2 class="major">completed projects 2018-2020</h2>	
+								<!--
+								<a href="https://drive.google.com/file/d/1V9FSIG2rPVtSYx7Jd4Pz0yrwx__Q66CW/view?usp=sharing"  target="_blank" class="button primary icon solid fa-download">Portfolio_rus.pdf</a><br>
+								<br><br>
+								-->
+								
+								
+								<p>
+								<h3 class="major">Subway connectivity</h3>
+									Mini research on the topic "When it is faster go to the MCC?"
+									<a target="_blank" href='https://medium.com/@pshavr/%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D0%B2%D1%8B%D0%B3%D0%BE%D0%B4%D0%BD%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%BC%D1%86%D0%BA-dc2e4125fdf9'>
+									link to Medium</a><br>Parsing a YandexMetro via Selenium, plus handmade svg visualization.
+									<img src="images/portfolio/1.png">
+								</p>
+								<p>
+								<h3 class="major">urban transport monitoring</h3>
+								
+									Standalone software product for the Yekaterinburg Department of Transport: Automated construction
+									of cartograms of emergency situations of electric transport based on collected and updated data.
+									<img src="images/portfolio/2.png">
+								</p>
+								<p>
+									<h3 class="major">Geodatabases</h3>	
+									<li>all tasks related to obtaining indicators for municipalities (employment, population, breakdown by OKVED)</li>
+									<li>collection of more than 2 million ROSSTAT real estate transactions in the Sverdlovsk region</li>
+									<li>collected all kilometer marks of all routes in Russia - written a collection module for Selenium interaction with the search field, image scaling elements, solved the problem of bifurcation of roads, ring routes</li>
+
+									<img src="images/portfolio/3.png">
+								</p>
+								<p>
+									<h3 class="major">ww</h3>	
+
+									<img src="images/portfolio/.png">
+								</p>
+								<p>
+									<h3 class="major">ww</h3>	
+
+									<img src="images/portfolio/.png">
+								</p>
+								<p>
+									<h3 class="major">ww</h3>	
+
+									<img src="images/portfolio/.png">
+								</p>
+								
+								
+								<br><a href="#skills" class="button primary">&lt; back</a>
+							</article>
+						
 						<!-- 2nd levels of aticles in support section -->
 							<article id="btc">
-								<span class="image main"><img src="images/Bitcoin_QR.png" alt="" /></span>
+								<span class="image main"><img src="images/cripto/Bitcoin_QR.png" width="600" height="600"/></span>
 								<a href="#support" class="button primary">&lt; back</a>
 							</article>
 							<article id="doge">
-								<span class="image main"><img src="images/Dogecoin_QR.png" alt="" /></span>								
+								<span class="image main"><img src="images/cripto/Dogecoin_QR.png" width="600" height="600"/></span>								
 								<a href="#support" class="button primary">&lt; back</a>
 							</article>
-							<
+							
 						
 						<!-- Elements -->
 							<article id="elements">
